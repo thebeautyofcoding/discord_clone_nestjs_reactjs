@@ -1,0 +1,22 @@
+.messageButton{
+border-radius: 100%;
+cursor: pointer;
+display:flex;
+justify-content: center;
+align-items:center;
+padding: var(--mantine-spacing-xs);
+margin-left: var(--mantine-spacing-xs);
+
+
+}
+
+.messageButton:hover{
+    background-color:  light-dark(
+    var(--mantine-color-gray-5),
+    var(--mantine-color-dark-3)
+    );
+}
+.messageButton:hover .icon{
+    transition:transform 0.2s ease-in-out;
+    transform: scale(1.5);
+}

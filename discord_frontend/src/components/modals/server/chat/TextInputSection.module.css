@@ -1,0 +1,87 @@
+.textInputSectionContainerNoMedia{
+display:flex;
+flex-direction:column;
+align-items:center;
+width:95%;
+gap:1rem;
+
+    @media(min-width:$mantine-breakpoint-xs){
+        flex-direction:column;
+    }
+    @media(min-width:$mantine-breakpoint-md){
+        flex-direction:row;
+    }
+}
+
+
+.textInputSectionContainerWithMedia{
+    width: 31.5rem;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:1rem;
+  
+
+
+}
+
+.textInputNoMedia{
+width:100%;
+
+
+
+    @media(min-width:$mantine-breakpoint-lg){
+        width: 107.5%;
+    }
+    @media (min-width: $mantine-breakpoint-xl) {
+        width:71%;
+         }
+}
+.textInputWithMedia{
+    width:100%;
+
+}
+.buttonsContainerNoMedia{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:1rem;
+ 
+
+    @media(min-width:$mantine-breakpoint-xs){
+        margin-top:0;
+        justify-content:start;
+        align-items:start;
+        margin-left:var(--mantine-spacing-sm);
+    }
+
+}
+.buttonsContainerWithMedia{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:.5rem;
+    
+
+}
+
+.fileUploadButtonContainerNoMedia{
+    display:flex;
+    margin-right:var(--mantine-spacing-sm);
+    @media(min-width:$mantine-breakpoint-xs){
+        justify-content:center;
+        align-items:center;
+    }
+
+
+}
+.FileUploadButtonContainerWithMedia{
+
+
+}
+
+.textInputNoMediaDrawerClosed{
+width:100%;
+
+
+}

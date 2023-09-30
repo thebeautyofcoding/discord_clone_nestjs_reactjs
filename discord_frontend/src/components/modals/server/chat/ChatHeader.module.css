@@ -1,0 +1,12 @@
+.chatHeader{
+    background-color:light-dark(
+var(--mantine-color-gray-2), 
+var(--mantine-color-dark-6));
+
+border-bottom: rem(1px) solid light-dark(
+var(--mantine-color-gray-5),
+var(--mantine-color-dark-3)
+);
+border-radius:0;
+   
+}

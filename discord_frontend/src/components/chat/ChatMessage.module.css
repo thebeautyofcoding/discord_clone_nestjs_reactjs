@@ -1,0 +1,101 @@
+
+
+
+.messageContainerWithMediaDrawerClosed{
+    width: 31.5rem;
+    background-color: light-dark(var(--mantine-color-gray-1), var(--mantine-color-dark-8));
+    border-radius:var(--mantine-radius-md);
+
+}
+.messageContainerNoMedia{
+ 
+    background-color: light-dark(var(--mantine-color-gray-1), var(--mantine-color-dark-8));
+    border-radius:var(--mantine-radius-md);
+  
+    
+}
+
+.profileNameNoMedia{
+    word-break:break-word;
+    display:none;
+
+    @media(min-width:$mantine-breakpoint-sm){
+        display:inline-block;
+
+    }
+
+}
+
+
+
+.contentWithMediaDrawerClosed{
+    word-break: break-word;
+    @media(min-width:$mantine-breakpoint-xl){
+        width:18rem;
+  
+      }
+
+}
+
+
+.contentNoMediaDrawerOpen{
+    word-break: break-word;
+    width:100%;
+    
+    @media (min-width: $mantine-breakpoint-xs) {
+ 
+      width: 100%;
+    }
+
+    @media (min-width: $mantine-breakpoint-sm) {
+
+      width: calc(30rem - 250px);
+    }
+
+    @media (min-width: $mantine-breakpoint-md) {
+
+      width: calc(45rem - 400px);
+    }
+    @media (min-width: $mantine-breakpoint-lg) {
+
+      width: calc(55rem - 400px);
+    }
+
+    @media (min-width: $mantine-breakpoint-xl) {
+
+      width: calc(70rem - 400px);
+    }
+    
+}
+
+.contentNoMediaDrawerClosed{
+    word-break: break-word;
+    width:100%;
+
+
+    @media (min-width: $mantine-breakpoint-xs) {
+ 
+        width: 20rem;
+      }
+
+      @media (min-width: $mantine-breakpoint-sm) {
+ 
+        width: 30rem;
+      }
+
+      @media (min-width: $mantine-breakpoint-md) {
+ 
+        width: 45rem;
+      }
+      @media (min-width: $mantine-breakpoint-lg) {
+ 
+        width: 55rem;
+      }
+
+      @media (min-width: $mantine-breakpoint-xl) {
+ 
+        width: 70rem;
+      }
+
+  
+}

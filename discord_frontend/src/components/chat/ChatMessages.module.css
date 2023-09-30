@@ -1,0 +1,23 @@
+.scrollAreaNoMediaDrawerOpen{
+    @media (min-width: $mantine-breakpoint-xl) {
+        width: 56.5rem;
+    } 
+
+
+}
+
+
+.scrollAreaNoMediaDrawerClosed{
+    @media (min-width: $mantine-breakpoint-xl) {
+        width: calc(56.5rem + 330px);
+    } 
+
+}
+
+.scrollAreaWithMediaDrawerOpen{
+
+}
+
+.scrollAreaWithMediaDrawerClosed{
+    
+}

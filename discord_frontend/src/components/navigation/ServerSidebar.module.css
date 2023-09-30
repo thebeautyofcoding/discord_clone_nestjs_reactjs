@@ -1,0 +1,14 @@
+.nav{
+background-color: light-dark(
+    var(--mantine-color-gray-2),
+    var(--mantine-color-dark-6)
+);
+border-right:rem(1px) solid light-dark(
+var(--mantine-color-gray-3),
+var(--mantine-color-dark-4)
+);
+height:100vh;
+padding:var(--mantine-spacing-md);
+
+
+}
